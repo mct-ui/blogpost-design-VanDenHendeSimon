@@ -233,6 +233,12 @@ a:focus {
     padding: 0 24px;
 }
 
+.c-article__date {
+    font-family: "Droid Serif", serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 
 /* iPad Portrait */
 @media (min-width: 768px) {
@@ -269,7 +275,12 @@ a:focus {
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .u-margin-bottom-xs {
+        margin-bottom: 8px;
+    }
+    
+}
 
 /* Medium devices (tablets, 768px and up) */
 
@@ -366,6 +377,10 @@ a:focus {
 
 .u-max-width-sm {
     max-width: 36em;
+}
+
+.u-margin-bottom-xs {
+    margin-bottom: 0;
 }
 
 
