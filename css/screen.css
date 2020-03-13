@@ -301,6 +301,31 @@ a:focus {
 }
 
 
+/*
+    Component: Quote
+*/
+
+.c-quote {
+    margin-left: -24px;
+    margin-bottom: 48px;
+    margin-top: 48px;
+    padding: 24px 22px 24px 24px;
+    background-color: #F2FAF8;
+    border-radius: 5px;
+}
+
+.c-quote__body {
+    color: #00B37D;
+    margin-bottom: 0;
+    background-color: #F2FAF8;
+    font-style: italic;
+    font-size: 23px;
+    line-height: 32px;
+}
+
+
+
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {}
