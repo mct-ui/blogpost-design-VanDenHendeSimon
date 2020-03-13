@@ -66,29 +66,28 @@ img {
     Default markup for typographic elements
 */
 
-h1 {
-    font-size: 36px;
-    line-height: 40px;
-    margin: 0 0 24px;
-}
-
-h2 {
-    font-size: 23px;
-    line-height: 32px;
-    margin: 0 0 24px;
-}
-
-h3 {
-    font-size: 18px;
-    line-height: 24px;
-    margin: 0 0 24px;
-}
-
 h1,
 h2,
 h3 {
     font-family: "Inter Web", "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #17181A;
+    margin: 0 0 24px;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 40px;
+    font-family: "Playfair Display", serif;
+}
+
+h2 {
+    font-size: 23px;
+    line-height: 32px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 24px;
 }
 
 h4,
