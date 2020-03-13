@@ -205,6 +205,29 @@ a:focus {
     line-height: 24px;
 }
 
+/* Smartphone */
+@media (min-width: 576px) {
+    .u-margin-bottom-xs {
+        margin-bottom: 8px;
+    }
+
+    h1 {
+        font-size: 46px;
+        line-height: 56px;
+    }
+    
+}
+
+
+/* iPad Portrait */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 52px;
+        line-height: 64px;
+    }
+}
+
+
 /* child elementen weer onder elkaar zetten want display is nu block ipv flex */
 @media (min-width: 992px) {
     .c-author {
@@ -213,6 +236,11 @@ a:focus {
 
     .c-author__image {
         margin-bottom: 16px;
+    }
+
+    h1 {
+        font-size: 58px;
+        line-height: 72px;
     }
 }
 
@@ -275,12 +303,7 @@ a:focus {
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) {
-    .u-margin-bottom-xs {
-        margin-bottom: 8px;
-    }
-    
-}
+@media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) */
 
@@ -381,6 +404,14 @@ a:focus {
 
 .u-margin-bottom-xs {
     margin-bottom: 0;
+}
+
+/* Smartphone */
+@media (min-width: 576px) {
+    .u-margin-bottom-xs {
+        margin-bottom: 8px;
+    }
+    
 }
 
 
